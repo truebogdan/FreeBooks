@@ -1,0 +1,35 @@
+<resources>
+    <string name="NewsTitle">Cele mai noi cărți adăugate</string>
+    <string name="FavsTitle">Cărțile tale preferate</string>
+    <string name="FavoriteTitle">Cărțile tale favorite</string>
+    <string name="ContactTitle">Trimite-ne un mesaj</string>
+    <string name="ContactNume">Nume:</string>
+    <string name="ContactNumeHint">Numele tău</string>
+    <string name="ContactSubiect">Subiect:</string>
+    <string name="ContactDescriere">Descriere:</string>
+    <string name="ContactTrimite">Trimite</string>
+    <string name="NoNews">Nu există noutăți.</string>
+    <string name="app_name">Cărți Gratis</string>
+    <string name="desc_btn">Descoperă</string>
+    <string name="nou_btn">Noutăți</string>
+    <string name="top_btn">Contact</string>
+    <string name="fav_btn">Favorite</string>
+    <string name="home_txt">Cărți Gratis</string>
+    <string name="titleTV">Titlu:</string>
+    <string name="authorTV">Autor:</string>
+    <string name="yearTV">An:</string>
+    <string name="openBookBtn">Deschide</string>
+    <string name="ratingTv">Rating:</string>
+    <string name="emptylistString">Lista ta de cărți favorite e goală.</string>
+    <string name="error">A apărut o eroare.</string>
+    <string name="FantasyCategory">Fantastic</string>
+    <string name="SFCategory">SF</string>
+    <string name="ThrillerCategory">Thriller</string>
+    <string name="JurnalCategory">Jurnal</string>
+    <string-array name="Subiecte">
+        <item>Solicită o carte.</item>
+        <item>Dă-ne o sugestie.</item>
+        <item>Raportează o problemă.</item>
+        <item>Feed-back.</item>
+    </string-array>
+</resources>

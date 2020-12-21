@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/blankFragment3">
+
+
+    <fragment
+        android:id="@+id/blankFragment3"
+        android:name="com.ntzk.freebooks.homeFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/home" >
+        <action
+            android:id="@+id/toBookList"
+            app:destination="@id/blankFragment22" />
+        <action
+            android:id="@+id/homeToFavs"
+            app:destination="@id/favoriteBooks" />
+        <action
+            android:id="@+id/homeToNews"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/homeToContact"
+            app:destination="@id/contactFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment22"
+        android:name="com.ntzk.freebooks.bookListFragment"
+        android:label="fragment_blank2"
+        tools:layout="@layout/booklist" />
+    <fragment
+        android:id="@+id/favoriteBooks"
+        android:name="com.ntzk.freebooks.FavoriteBooks"
+        android:label="fragment_favorite_books"
+        tools:layout="@layout/fragment_favorite_books" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.ntzk.freebooks.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.ntzk.freebooks.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90790162522",
+    "project_id": "freebooks-96cd9",
+    "storage_bucket": "freebooks-96cd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90790162522:android:77954eacacd79236306863",
+        "android_client_info": {
+          "package_name": "com.ntzk.freebooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90790162522-70gvt8qp8snd30fklom0dkcepb27rukq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAn58yOwBI_X1gejri68-MHmdcH9Yc__c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90790162522-70gvt8qp8snd30fklom0dkcepb27rukq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
